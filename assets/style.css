@@ -9,7 +9,8 @@ body {
 .body {
     padding-top: 5px;
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.10);
+    background-color: rgba(0, 0, 0, 0.50);
+    font-family: 'Cairo', sans-serif;
 
 }
 
@@ -41,6 +42,7 @@ body {
     font-size: 14px;
     color: white;
     border: none;
+    max-width: 100px;
 }
 
 .dropdown-item:hover {
@@ -54,6 +56,8 @@ body {
     border: 1px solid white;
     max-width: 120px;
     color: white;
+    padding: 0 7px;
+
 }
 
 ul {
@@ -65,9 +69,11 @@ i {
 }
 
 .logo {
-    font-size: 35px;
-    font-weight: bold;
-    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    color: #343a40;
+    text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.41);
+    font-family: 'Exo 2', sans-serif;
 }
 
 a {
@@ -140,8 +146,13 @@ textarea {
 @media (max-width: 767px) {
     body {
         background-image: url("img/pictureForMobile.jpeg");
-        background-size: 2053px;
         background-position: left;
 
+    }
+}
+
+@media (max-width: 500px) {
+    .dropdown-toggle {
+        margin-right: 20px;
     }
 }
