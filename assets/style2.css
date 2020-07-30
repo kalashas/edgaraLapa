@@ -10,11 +10,15 @@ body {
     padding-top: 5px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.10);
+    font-family: 'Cairo', sans-serif;
+}
 
+.no-hover {
+    color: white;
 }
 
 .no-hover:hover {
-    color: #343a40;
+    color: inherit;
 }
 
 .navbar {
