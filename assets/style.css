@@ -1,158 +1,174 @@
 body {
-    width: 100%;
-    background-image: url("img/backgroundimg.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  background-image: url("img/backgroundimg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
 }
 
 .body {
-    padding-top: 5px;
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.50);
-    font-family: 'Cairo', sans-serif;
-
+  padding-top: 5px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Cairo", sans-serif;
 }
 
+
 .no-hover:hover {
-    color: #343a40;
+  color: #343a40;
 }
 
 .navbar {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .dropdown-toggle {
-    font-size: 14px;
-    max-width: 120px;
+  font-size: 14px;
+  max-width: 120px;
 }
 
 .dropdown-toggle:hover {
-    color: #343a40;
+  color: #343a40;
 }
 
 .dropdown-menu {
-    max-width: 30px;
-    height: 60px;
-    background-color: inherit;
-    border: none;
+  max-width: 30px;
+  height: 60px;
+  background-color: inherit;
+  border: none;
 }
 
 .dropdown-item {
-    font-size: 14px;
-    color: white;
-    border: none;
-    max-width: 100px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  max-width: 100px;
 }
 
 .dropdown-item:hover {
-    background-color: #343a40;
-    color: white;
-    border: 1px solid white;
+  background-color: #343a40;
+  color: white;
+  border: 1px solid white;
 }
 
 #btn-contact {
-    font-size: 1.5rem;
-    border: 1px solid white;
-    max-width: 120px;
-    color: white;
-    padding: 0 7px;
-
+  font-size: 1.5rem;
+  border: 1px solid white;
+  max-width: 120px;
+  color: white;
+  padding: 0 7px;
 }
 
 ul {
-    align-items: center;
+  align-items: center;
 }
 
 i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .logo {
-    font-size: 40px;
-    font-weight: normal;
-    color: #343a40;
-    text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.41);
-    font-family: 'Exo 2', sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  color: #343a40;
+  text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.41);
+  font-family: "Exo 2", sans-serif;
 }
 
 a {
-    color: white;
-    font-size: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .main-part-heading {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .covid {
-    font-size: 20px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  font-size: 22px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .main-part,
 .main-part-dzejolis,
 .main-part-heading {
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 200%;
-    color: white;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  font-size: 19px;
+  letter-spacing: 1px;
+  line-height: 200%;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .main-part-dzejolis {
-    margin-top: 29px;
-
+  margin-top: 29px;
 }
 
 .contact-form {
-    padding-bottom: 100px;
-    color: white;
-    justify-content: center;
+  color: white;
+  justify-content: center;
 }
 
 input {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 textarea {
-    margin-top: 10px;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .form-mail {
-
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .form-mail:hover {
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
-    color: #343a40;
-    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 250, 250), 1px 1px 0 rgb(255, 255, 255);
-    text-decoration: none;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  color: #343a40;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 250, 250), 1px 1px 0 rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .btn-primary {
-    background-color: gray;
-    border: 1px solid white;
+  background-color: gray;
+  border: 1px solid white;
 }
 
 .btn-primary:hover {
-    background-color: black;
+  background-color: black;
+}
+
+div#white-background {
+  background-color: rgba(255, 255, 255, 0.21);
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 33px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 33px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 33px -2px rgba(0, 0, 0, 0.75);
+}
+
+
+/* MEDIA QUERIES */
+/* bootsrap have its own limitations mmax-width for class .container, i wanted to expand a little bit
+pver witdh 1200px container max width 80% */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 767px) {
-    body {
-        background-image: url("img/pictureForMobile.jpeg");
-        background-position: left;
-
-    }
+  body {
+    background-image: url("img/pictureForMobile.jpeg");
+    background-position: left;
+  }
 }
 
 @media (max-width: 500px) {
-    .dropdown-toggle {
-        margin-right: 20px;
-    }
+  .dropdown-toggle {
+    margin-right: 20px;
+  }
 }
